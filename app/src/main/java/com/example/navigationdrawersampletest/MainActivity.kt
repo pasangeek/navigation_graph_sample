@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
         navController = findNavController(R.id.nav_host)
         navView = findViewById(R.id.navView)
 
-    // appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
+     //appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
         appBarConfiguration = AppBarConfiguration(
            setOf(R.id.nav_home,R.id.nav_setting,R.id.nav_help),drawerLayout
        )
 
 
-       // setupActionBarWithNavController(navController,drawerLayout)
+        setupActionBarWithNavController(navController,drawerLayout)
         navView.setupWithNavController(navController)
 
 

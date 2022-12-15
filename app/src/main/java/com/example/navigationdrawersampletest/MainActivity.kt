@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
        )
 
 
-        setupActionBarWithNavController(navController,drawerLayout)
+       // setupActionBarWithNavController(navController,drawerLayout)
         navView.setupWithNavController(navController)
 
 

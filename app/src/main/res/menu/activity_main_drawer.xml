@@ -10,11 +10,11 @@ xmlns:tools="http://schemas.android.com/tools"
     <item
         android:id="@+id/nav_setting"
         android:icon="@drawable/ic_launcher_foreground"
-        android:title="@string/hello_home_fragment" />
+        android:title="@string/hello_setting_fragment" />
 
     <item
         android:id="@+id/nav_help"
         android:icon="@drawable/ic_launcher_background"
-        android:title="@string/hello_home_fragment" />
+        android:title="@string/hello_help_fragment" />
 
 </menu>
